@@ -7,8 +7,7 @@ var forLoop = function(array) {
 }
 
 var whileLoop = function(n) {
-  while (n > 0)
-  {
+  while (n > 0) {
     console.log(--n);
   }
   return 'done';
@@ -19,9 +18,8 @@ function maybeTrue() {
 }
 
 function doWhileLoop(array) {
-    do
-    {
-        array.pop();
+    do {
+      array.pop();
     }
     while (maybeTrue());
     return array;
